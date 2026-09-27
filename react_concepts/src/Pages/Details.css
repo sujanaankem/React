@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 350px;
+  margin: 60px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Only required fields can get this class */
+.input-error {
+  border: 2px solid red;
+}
+
+.error-message {
+  display: block;
+  margin-top: 5px;
+  color: red;
+  font-size: 13px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
